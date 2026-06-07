@@ -1,0 +1,107 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ===== ADDITIONAL FOR PORTFOLIO =====
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+key.properties
+keystore.properties
+
+# Android specific
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/key.properties
+/android/app/build/
+
+# iOS specific
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/App.framework
+
+# Web specific
+/web/.dart_tool/
+
+# Windows specific
+/windows/flutter/
+
+# Linux specific
+/linux/flutter/
+
+# macOS specific
+/macos/Flutter/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Generated code
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# Test coverage
+/test/.test_coverage.dart
+
+# IDE
+.vscode/
