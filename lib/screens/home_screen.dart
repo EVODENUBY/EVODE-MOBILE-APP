@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../config/app_colors.dart';
 import '../data/portfolio_data.dart';
 import '../providers/theme_provider.dart';
 import 'package:provider/provider.dart';
+import '../widgets/typewriter_text.dart';
 import 'projects_screen.dart';
 import 'skills_screen.dart';
 import 'experience_screen.dart';
@@ -126,10 +126,10 @@ class _AboutTab extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           // Bio
-          Text(
-            PortfolioData.bio,
-            textAlign: TextAlign.center,
+          TypewriterText(
+            text: PortfolioData.bio,
             style: Theme.of(context).textTheme.bodyLarge?.copyWith(height: 1.6),
+            speed: const Duration(milliseconds: 40),
           ),
           const SizedBox(height: 30),
           // Social Links
