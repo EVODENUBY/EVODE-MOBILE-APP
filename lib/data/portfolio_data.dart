@@ -8,8 +8,8 @@ class PortfolioData {
   static const String tagline = "Turning Ideas into Scalable Solutions";
   static const String bio = """
   Passionate Software Engineer with experience building scalable applications. 
-  Proficient in mobile development, cloud architecture, and creating efficient, 
-  maintainable code. Open source enthusiast and continuous learner.
+  Proficient in Full stack development and aspiring mobile  app developer, cloud architecture, and creating efficient, 
+  maintainable code. 
   """;
 
   static const String email = "evodemuyisingize@gmail.com";
@@ -23,38 +23,39 @@ class PortfolioData {
   // EXPERIENCE
   static const List<Map<String, dynamic>> experiences = [
     {
-      'company': 'Tech Corp',
-      'role': 'Senior Software Engineer',
-      'period': 'Jan 2022 - Present',
-      'description': 'Leading mobile development team for flagship products.',
+      'company': 'Rwanda ICT Chamber',
+      'role': 'Software Developer Intern',
+      'period': 'Jan 2026 - Present',
+      'description': 'Building, Testing and maintaining ICT Chamber systems across its all domains.',
       'achievements': [
-        'Developed Flutter apps with 100K+ downloads',
+        'Developed Fullstack web applications used by this institution',
         'Reduced crash rate by 95%',
         'Led migration to microservices architecture',
       ],
-      'technologies': ['Flutter', 'Dart', 'AWS', 'Docker'],
+      'technologies': ['Node.js', 'TypeScript', 'mongodb', 'React.Js'],
     },
     {
-      'company': 'StartupXYZ',
+      'company': 'City of Kigali',
       'role': 'Software Developer',
-      'period': 'Jun 2020 - Dec 2021',
-      'description': 'Built and maintained full-stack web applications.',
+      'period': 'feb 2026 - Apr 2026',
+      'description': 'Built and maintained full-stack web applications accross city of Kigali departments'
+          ' and integrating with third-party applications.',
       'achievements': [
         'Built RESTful APIs serving 1M+ requests/day',
         'Optimized database queries by 40%',
-        'Mentored junior developers',
+        'Collaboration with fellow developers',
       ],
-      'technologies': ['React', 'Node.js', 'PostgreSQL', 'Redis'],
+      'technologies': ['React', 'Node.js', 'MongoDb', 'Socket.io', 'TypeScript'],
     },
   ];
 
   // EDUCATION
   static const List<Map<String, String>> education = [
     {
-      'degree': 'B.S. Computer Science',
-      'school': 'University of Technology',
-      'year': '2016 - 2020',
-      'gpa': '3.8/4.0',
+      'degree': 'BSc. in Business Information Technology',
+      'school': 'University of rwanda',
+      'year': '2023 - 2027',
+      'gpa': '3.7/4.0',
     },
   ];
 
@@ -72,7 +73,7 @@ class PortfolioData {
         'Real-time order tracking',
         'Push notifications',
       ],
-      githubUrl: 'https://github.com/johndoe/ecommerce-app',
+      githubUrl: 'https://github.com/evodenuby/ecommerce-app',
       category: ProjectCategory.mobile,
       duration: '3 months',
     ),
@@ -87,22 +88,22 @@ class PortfolioData {
         'Role-based access control',
         'Advanced search and filtering',
       ],
-      githubUrl: 'https://github.com/johndoe/task-api',
+      githubUrl: 'https://github.com/evodenuby/task-manager-app',
       category: ProjectCategory.backend,
       duration: '2 months',
     ),
     Project(
       id: '3',
-      title: 'Weather Dashboard',
-      subtitle: 'Real-time weather monitoring',
-      description: 'Interactive dashboard showing weather data with beautiful visualizations.',
-      technologies: ['React', 'TypeScript', 'Chart.js', 'OpenWeather API'],
+      title: 'Modern Portfolio',
+      subtitle: 'Tech modern portfolio website',
+      description: 'Portfolio website designed to showcase all projects, skills and accomplishments of evodenuby.',
+      technologies: ['React', 'TypeScript', 'Chart.js'],
       features: [
-        '5-day forecast',
-        'Interactive maps',
-        'Weather alerts',
+        'Framer motions',
+        'Interactive view',
+        'Projects powered',
       ],
-      liveUrl: 'https://weather-dashboard-demo.web.app',
+      liveUrl: 'https://evodenuby.vercel.app',
       category: ProjectCategory.web,
       duration: '1 month',
     ),
