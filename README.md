@@ -1,17 +1,28 @@
-# evodenuby
+# Evode Mobile Portfolio App
 
-A new Flutter project.
+## 📱 Screenshots
+![Home Screen](assets/screenshots/home.png)
 
-## Getting Started
+![Projects Screen](assets/screenshots/projects.png)
 
-This project is a starting point for a Flutter application.
+![Skills Screen](assets/screenshots/skills.png)
 
-A few resources to get you started if this is your first Flutter project:
+![Contact Screen](assets/screenshots/contact.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![experience Screen](assets/screenshots/experience.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+- Modern UI/UX
+- Project Showcase
+- Skills Overview
+- Contact Information
+- Download CV
+
+## 🛠 Tech Stack
+- Flutter
+- Dart
+- Material Design
+
+## 📥 Download
+
+Get the latest APK from the Releases section.
